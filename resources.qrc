@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="main.qss">qss/main.qss</file>
+        <file alias="main-bg.png">pic/main-bg.png</file>
+        <file alias="up-arrow.png">pic/up-arrow.png</file>
+        <file alias="down-arrow.png">pic/down-arrow.png</file>
+        <file alias="up.png">pic/up.png</file>
+        <file alias="down.png">pic/down.png</file>
+    </qresource>
+</RCC>

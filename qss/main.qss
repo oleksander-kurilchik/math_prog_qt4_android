@@ -1,0 +1,86 @@
+QScrollArea 
+{
+    background-color: black;
+    background-image: url(:/main-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content;
+    background-attachment: fixed;
+}
+
+
+QScrollArea * {background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 50%), stop:1 rgba(0, 0, 0, 0%));}
+
+
+QLabel,QGroupBox {
+    background: none;
+color: lightgrey; font-size:14pt;
+}
+
+
+
+QMenu::item:selected,
+QScrollBar{
+    background-color: rgb(180, 180, 180, 20%);
+    color: black;
+}
+QScrollBar:vertical,QScrollBar:horizontal
+{
+min-width:30px;
+min-height:30px;
+}
+QScrollBar::down-button
+{
+min-width:30px;
+min-height:30px;
+}
+QScrollBar::up-arrow:vertical
+{
+min-width:30px;
+min-height:30px;
+    image: url(:/up.png) ;
+ }
+
+QScrollBar::down-arrow:vertical
+{
+
+width:30px;
+height:30px;
+
+     image: url(:/down.png) ;
+ }
+
+
+
+
+QSpinBox
+{
+
+    background-color: white;
+    min-width: 50px;
+    max-width: 60px;
+    min-height: 14px;
+ font-size:14pt;
+
+    border-radius: 3px;
+    height:40px;
+}
+QSpinBox::up-button {
+subcontrol-origin: border;
+     subcontrol-position: top right;
+    image: url(:/up.png) ;
+     width: 22px;
+     height: 22px;
+
+    }
+
+ QSpinBox::down-button {
+ subcontrol-origin: border;
+      subcontrol-position: bottom right; /* position at bottom right corner */
+
+      width: 22px;
+       height: 22px;
+     image: url(:/down.png) ;
+
+
+ }
